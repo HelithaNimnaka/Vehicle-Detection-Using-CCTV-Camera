@@ -15,7 +15,7 @@ A high-performance vehicle detection and counting system built using YOLOv11 and
 - **Dataset**: UA-DETRAC (real-world traffic footage)
 - **Vehicle Classes**: Car, Truck, Van, Bus
 - **Performance**:
-  - Up to **346 FPS** with TensorRT INT8
+  - Up to **300+ FPS** with TensorRT INT8
   - Cross-platform deployment: PyTorch, ONNX, TensorRT, OpenVINO
   - Multithreaded tracking support
 
@@ -39,10 +39,10 @@ A high-performance vehicle detection and counting system built using YOLOv11 and
 
 | Backend     | FPS  | Precision | mAP@50 |
 |-------------|------|-----------|--------|
-| PyTorch     | 85   | 0.718     | 0.712  |
-| ONNX (GPU)  | 65   | 0.721     | 0.711  |
-| TensorRT    | 346  | 0.684     | 0.653  |
-| OpenVINO    | 18   | 0.709     | 0.696  |
+| PyTorch     | 183  | 0.703     | 0.703  |
+| ONNX (GPU)  | 63   | 0.673     | 0.698  |
+| TensorRT    | 306  | 0.686     | 0.676  |
+| OpenVINO    | 18   | 0.699     | 0.696  |
 
 ## 🧪 Real-Time Testing
 
@@ -58,9 +58,12 @@ A high-performance vehicle detection and counting system built using YOLOv11 and
 
 ## 📊 Evaluation Metrics
 
-- **Overall mAP@50–95**: 0.507 (PyTorch), 0.486 (ONNX), 0.448 (TensorRT INT8)
-- **Vehicle counts** match ground truth in most test scenarios
-
+- **Overall mAP@50–95**:  
+  - PyTorch: 0.553  
+  - ONNX: 0.543  
+  - OpenVINO: 0.537
+  - TensorRT: 0.505  
+  
 ## 🔄 Export Formats
 
 - `.pt` (PyTorch)
