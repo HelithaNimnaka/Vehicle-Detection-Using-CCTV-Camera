@@ -6,7 +6,7 @@ A high-performance vehicle detection and counting system built using YOLOv11 and
 
 ## 🎞️ Demo
 
-![Vehicle Tracking Demo](Vehicle-Detection-Using-CCTV-Camera/Vehicle%20Tracking.gif)
+![Vehicle Tracking Demo](Vehicle Tracking.gif)
 
 ---
 ## 🚀 Overview
