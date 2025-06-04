@@ -1,0 +1,10 @@
+train: /mnt/sda1/FYP_2024/Helitha/CCTV/UA-DETRAC/images/train
+val: /mnt/sda1/FYP_2024/Helitha/CCTV/UA-DETRAC/images/val
+test: /mnt/sda1/FYP_2024/Helitha/CCTV/UA-DETRAC/images/test
+nc: 4
+names:
+  0: "truck"
+  1: "car"
+  2: "van"
+  3: "bus"
+

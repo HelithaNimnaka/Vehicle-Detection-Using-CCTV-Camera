@@ -1,0 +1,8 @@
+# calib.yaml
+train: /mnt/sda1/FYP_2024/Helitha/CCTV/UA-DETRAC/images/calib
+val: /mnt/sda1/FYP_2024/Helitha/CCTV/UA-DETRAC/images/calib
+names:
+  0: "truck"
+  1: "car"
+  2: "van"
+  3: "bus"
