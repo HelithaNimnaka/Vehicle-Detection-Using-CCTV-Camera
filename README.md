@@ -2,6 +2,13 @@
 
 A high-performance vehicle detection and counting system built using YOLOv11 and the UA-DETRAC dataset. This project focuses on real-time surveillance applications using CCTV video feeds.
 
+---
+
+## 🎞️ Demo
+
+![Vehicle Tracking Demo](Vehicle-Detection-Using-CCTV-Camera/Vehicle%20Tracking.gif)
+
+---
 ## 🚀 Overview
 
 - **Model**: YOLOv11m (Ultralytics)
